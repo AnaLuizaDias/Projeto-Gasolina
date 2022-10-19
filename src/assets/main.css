@@ -6,13 +6,10 @@ h1{
 #cor1{
   color: red;
 }
-main{
-  background-color: black;
-}
 h2{
   color: #ffff;
 }
 img{
-  width: 300px;
-  height: 400px;
+  width: 400px;
+  height: 200px;
 }

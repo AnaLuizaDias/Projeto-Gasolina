@@ -1,12 +1,11 @@
 <template>
   <div class="black">
     <div class="nome text-center navbar-dark">
-      <h1>Gasolina</h1>
+      <img src="@/assets/images/gasolina.jpeg" alt="">
     </div>
     <br />
     <nav class="navbar navbar-expand-lg navbar-dark teste">
       <div class="container-fluid">
-        <a class="navbar-brand" id="cor1" href="#">ANAFLIX</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -23,13 +22,10 @@
             class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
             style="--bs-scroll-height: 100px"
           >
-            <li>
-              <router-link class="dropdown-item" to="/home"
+            <li class="nav-item">
+              <router-link class="nav-link" to="/home"
                 >Home</router-link
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Em alta</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -41,30 +37,30 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Assistir
+                Ver mais
               </a>
               <ul
                 class="dropdown-menu"
                 aria-labelledby="navbarScrollingDropdown"
               >
                 <li>
-                  <router-link class="dropdown-item" to="/series"
-                    >Séries</router-link
+                  <router-link class="dropdown-item" to="/sobre"
+                    >Sobre</router-link
                   >
                 </li>
                 <li>
                   <router-link class="dropdown-item" to="/filmes"
-                    >Filmes</router-link
+                    >Videos</router-link
                   >
                 </li>
                 <li>
                   <router-link class="dropdown-item" to="/documentarios"
-                    >Documentarios</router-link
+                    >Tabela</router-link
                   >
                 </li>
                 <li>
                   <router-link class="dropdown-item" to="/premiados"
-                    >Premiados</router-link
+                    >Integrantes</router-link
                   >
                 </li>
               </ul>
@@ -87,7 +83,7 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 .black {
-  background-color: rgb(128, 10, 10);
+  background-color: #0E0E0E;
 }
 h1{
   color: rgb(255, 228, 77);
