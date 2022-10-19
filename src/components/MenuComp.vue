@@ -44,22 +44,17 @@
                 aria-labelledby="navbarScrollingDropdown"
               >
                 <li>
-                  <router-link class="dropdown-item" to="/sobre"
-                    >Sobre</router-link
-                  >
-                </li>
-                <li>
-                  <router-link class="dropdown-item" to="/filmes"
+                  <router-link class="dropdown-item" to="/videos"
                     >Videos</router-link
                   >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="/documentarios"
+                  <router-link class="dropdown-item" to="/tabela"
                     >Tabela</router-link
                   >
                 </li>
                 <li>
-                  <router-link class="dropdown-item" to="/premiados"
+                  <router-link class="dropdown-item" to="/integrantes"
                     >Integrantes</router-link
                   >
                 </li>
@@ -89,4 +84,9 @@ h1{
   color: rgb(255, 228, 77);
   font-family: 'Fredoka One', cursive;
 }
+img{
+  width: 400px;
+  height: 200px;
+}
+
 </style>

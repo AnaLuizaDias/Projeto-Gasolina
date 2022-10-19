@@ -1,15 +1,11 @@
 @import "./base.css";
 
 h1{
-  color:red;
+  color:black;
 }
 #cor1{
   color: red;
 }
 h2{
   color: #ffff;
-}
-img{
-  width: 400px;
-  height: 200px;
 }
