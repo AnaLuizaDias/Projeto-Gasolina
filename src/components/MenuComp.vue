@@ -1,10 +1,11 @@
 <template>
   <div class="black">
-    <div class="nome text-center navbar-dark">
-      <img src="@/assets/images/gasolina.jpeg" alt="">
-    </div>
+    
     <br />
     <nav class="navbar navbar-expand-lg navbar-dark teste">
+      <div class="nome text-center navbar-dark">
+      <img src="@/assets/images/gasolina.jpeg" alt="">
+    </div>
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -44,8 +45,8 @@
                 aria-labelledby="navbarScrollingDropdown"
               >
                 <li>
-                  <router-link class="dropdown-item" to="/videos"
-                    >Videos</router-link
+                  <router-link class="dropdown-item" to="/experimento"
+                    >Experimento</router-link
                   >
                 </li>
                 <li>
@@ -68,7 +69,7 @@
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-danger" type="submit">Search</button>
+            <button class="btn btn-outline-warning" type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -85,8 +86,9 @@ h1{
   font-family: 'Fredoka One', cursive;
 }
 img{
-  width: 400px;
-  height: 200px;
+  width: 200px;
+  height: 120px;
+  padding: 10px;
 }
 
 </style>

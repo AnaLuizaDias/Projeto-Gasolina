@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="tabela">
-      <table class="table table-hover table-bordered border-dark">
+      <table class="table table-hover table-bordered border-warning">
         <thead>
           <tr class="table-borderd">
             <th scope="col">#</th>

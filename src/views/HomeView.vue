@@ -1,11 +1,35 @@
 <template>
   <div class="card mb-3 home">
-  <img src="@/assets/images/motor.jpg" class="card-img-top" alt="...">
-  <div class="card-body home">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  <img src="@/assets/images/foto3.jpeg" class="card-img-top" width= "50%" alt="...">
+  <div class="row cardes">
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Química</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-warning">Go somewhere</a>
+      </div>
+    </div>
   </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Física</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-warning">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">História/Sociologia</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-warning">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
 </template>
@@ -20,8 +44,11 @@ padding-left: 50px;
 padding-right: 50px;
 padding-top: 20px;
 }
-.img{
-  width: 200px;
-  height: 10px;
+img{
+  width: 50%;
+  padding: 50px;
+}
+.cardes{
+  padding: 10px;
 }
 </style>
